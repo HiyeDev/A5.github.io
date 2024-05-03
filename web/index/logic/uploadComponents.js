@@ -1,6 +1,6 @@
 
 //UPPER MENU
-document.addEventListener("DOMContentLoaded" , function() {
+/*document.addEventListener("DOMContentLoaded" , function() {
     var upperMenu = document.getElementById("upperMenuTest");
 
     fetch("web/components/upperMenu/view/upperMenu")
@@ -11,4 +11,4 @@ document.addEventListener("DOMContentLoaded" , function() {
     .catch(error => {
         console.error("Error al cargar el archivo" , error)
     })
-})
+})*/
