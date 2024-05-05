@@ -4,14 +4,12 @@ body {
 
 .upperMenu {
     border-radius: 30pc;
-    background-color: rgba(255, 0, 0, 0.5);
-    left: 100px;
-    right: 100px;
-    margin-top: 10px;
-    margin-left: 50px;
-    margin-right: 50px;
-    margin-bottom: 5px;
-    padding-bottom: 5px;
+    background-color: rgba(255, 255, 255, 50%);
+    left: 5%;
+    right: 5%;
+    top: 10px;
+    margin: 0 5%;
+    padding: 0 2%;
     position: absolute;
     text-align: center;
     box-shadow: 0px 0px 10px 5px rgba(0,0,0,0.05);
@@ -29,12 +27,32 @@ body {
 .upperList li {
     display: inline;
     float: left;
-    font-size: 18px;
-    margin-bottom: 10px;
-    margin-right: 20px;
+    font-size:  1rem;
+    margin-bottom: 1.25rem;
+    margin-right: 1.25rem;
     
 }
 a:link {
     color: black;
     text-decoration: none;
+}
+
+span {
+    display: block;
+    float: right;
+    white-space: nowrap;
+    border-right: 4px solid;
+    width: 21ch;
+
+    animation: typing 2s steps(21) , blink .5s infinite step-end alternate;
+    animation-duration: infinite;
+    overflow: hidden;
+}
+
+@keyframes typing {
+    from { width: 0 }
+}
+
+@keyframes blink {
+    50% { border-color: transparent; }
 }
