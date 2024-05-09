@@ -12,4 +12,3 @@ document.addEventListener("DOMContentLoaded" , function() {
         console.error("Error al cargar el archivo" , error)
     })
 })
-web/components/upperMenu/view/upperMenu.html
