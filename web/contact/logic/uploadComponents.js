@@ -3,7 +3,7 @@
 document.addEventListener("DOMContentLoaded" , function() {
     var upperMenu = document.getElementById("upperMenu");
 
-    fetch("../../../web/components/upperMenu/view/upperMenu.html")
+    fetch("https://hiyedev.github.io/A5.github.io/web/components/upperMenu/view/upperMenu.html")
     .then(response => response.text())
     .then(data => {
         upperMenu.innerHTML = data;
