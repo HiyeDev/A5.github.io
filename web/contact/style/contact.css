@@ -42,11 +42,16 @@ ul {
 .my-form select:focus,
 .my-form input:focus,
 .my-form textarea:focus {
-    transform: scale(1.01);
+    transform: scale(1.03);
+    background-color: red;
     outline: none;
     box-shadow: 0px 0px 10px 5px rgba(0,0,0,0.20);
 }
 
+
+.my-form button img {
+    height: 30px;
+}
 
 
 
