@@ -12,10 +12,60 @@
     
     <div id="upperMenu"></div>
 
-    <div class="container">
+        <!-- Nombre (validar que no es vacío).
+            Teléfono (validar que es un formato válido para teléfono).
+            Correo electrónico (validar que es un formato válido para teléfono).
+            3 opciones de selección (del tipo que solamente se puede seleccionar una de ellas) relacionadas con la temática de tu sitio web. Es obligatorio seleccionar una.
+            4 casillas de chequeo (se puede seleccionar más de una) relacionadas con la temática de tu sitio web.
+            -->
 
-        aaaaaaaa
-    </div>
+        <form action="#" class="from-contact">
+
+            <div class="container">
+
+                <h1>¡Contactame!</h1>
+
+                <ul>
+                    <li>
+                        <select name="" id="">
+                            <option selected disabled> -- Escoge una opcion --</option>
+                            <option>Pregunta blog</option>
+                            <option>Colaboración</option>
+                            <option>Otro</option>
+                        </select>
+                    </li>
+                    <li>
+                        <div class="grid grid-2">
+                            <input type="text" placeholder="Nombre" required>
+                            <input type="text" placeholder="Apellido" required>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="grid grid-2">
+                            <input type="email" placeholder="Email" required>
+                            <input type="tel" placeholder="Telefono" required>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="grid grid-4">
+                            <p>Encuesta: Cual es tu genero favorito</p>
+                            <input type="checkbox" value="fantasia">
+                            <label for="fantasia">Fantasia</label>
+                            <input type="checkbox" value="romance">
+                            <label for="romance">Romance</label>
+                            <input type="checkbox" value="ciencia-ficcion">
+                            <label for="ciencia-ficcion">Ciencia Ficción</label>
+                            <input type="checkbox" value="otros">
+                            <label for="otros">Otros</label>
+                        </div>
+                    </li>
+                    <li></li>
+                </ul>
+
+            </div>
+        </form>
+
+
 
 </body>
 </html>

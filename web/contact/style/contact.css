@@ -18,3 +18,57 @@ body {
     transform: scale(1.01);
     box-shadow: 0px 0px 10px 5px rgba(0,0,0,0.20);
 }
+
+button, label {
+    cursor: pointer;
+}
+
+ul {
+    list-style: none;
+}
+
+.my-form select,
+.my-form input,
+.my-form textarea,
+.my-form button {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    transition: all .3s;
+}
+
+.my-form select:focus,
+.my-form input:focus,
+.my-form textarea:focus {
+    transform: scale(1.01);
+    outline: none;
+    box-shadow: 0px 0px 10px 5px rgba(0,0,0,0.20);
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 600px) {
+    .from-contact .grid {
+        display: grid;
+        grid-gap: 1.5rem;
+    }
+
+    .my-form .grid-2 {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .my-form .grid-3 {
+        grid-template-columns: auto auto auto;
+        align-items: center;
+    }
+
+    .my-form .grid-4 {
+        grid-template-columns: 1fr 1fr;
+    }
+}
