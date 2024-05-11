@@ -29,32 +29,73 @@ ul {
 
 .my-form select,
 .my-form input,
-.my-form textarea,
 .my-form button {
     width: 100%;
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 5px;
     margin-bottom: 10px;
-    transition: all .3s;
+    transition: background-color 0.3s transfrom 0.3s;
 }
 
 .my-form select:focus,
-.my-form input:focus,
-.my-form textarea:focus {
+.my-form input:focus
+.my-from button:focus {
     transform: scale(1.03);
-    background-color: red;
+    background-color: rgb(233, 100, 100);
     outline: none;
     box-shadow: 0px 0px 10px 5px rgba(0,0,0,0.20);
 }
 
+.my-form *:required,
+.my-form select {
+    background-repeat: no-repeat;
+    background-position: center right 12px;
+    background-size: 15px 15px;
+}
+
+.my-form *:required {
+    background-image: url("https://hiyedev.github.io/A5.github.io/resources/required.png");
+}
 
 button span img {
     height: 30px;
 }
 
 
+.my-form .btn-grid {
+    position: relative;
+    overflow: hidden;
+    transition: filter 0.2s;
+}
 
+.my-form button:enabled:hover,
+.my-form button:focus {
+    background-color: rgb(233, 100, 100);
+}
+
+.myfrom button > * {
+    display: inline-block;
+    width: 100%;
+    transition: transform 0.4s ease-in-out;
+}
+
+.my-form button .back {
+    position: absolute;
+    left: 50%;
+    right: 50%;
+    transform: translate(-110% , -50%);
+}
+
+.my-form button:enabled:hover .back,
+.my-form button:focus .back {
+    transform: translate(-50%, -50%)
+}
+
+.my-form button:enabled:hover .front,
+.my-form button:focus .front {
+    transform: translate(110%);
+}
 
 
 
