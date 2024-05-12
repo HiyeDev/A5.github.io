@@ -1,0 +1,16 @@
+{
+    "name" : "Books",
+    "books" : [
+        {
+            "id" : 1,
+            "title" : "El señor de los anillos: La comunidad del anillo",
+            "author" : "JRR Tolkien",
+            "puntuation" : 9
+        },
+        {
+            "id" : 2,
+            "title" : "The Hobbit",
+            "author" : "JRR Tolkien"
+        }
+    ]
+}

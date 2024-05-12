@@ -20,7 +20,7 @@
             4 casillas de chequeo (se puede seleccionar más de una) relacionadas con la temática de tu sitio web.
             -->
 
-        <form action="#" class="my-form">
+        <form action="#" class="my-form" onsubmit="return validacion()">
 
             <div class="container">
 
@@ -28,7 +28,7 @@
 
                 <ul>
                     <li>
-                        <select name="" id="">
+                        <select name="" id="options">
                             <option selected disabled> -- Escoge una opcion --</option>
                             <option>Pregunta blog</option>
                             <option>Colaboración</option>
@@ -37,14 +37,14 @@
                     </li>
                     <li>
                         <div class="grid grid-2">
-                            <input type="text" placeholder="Nombre" required>
-                            <input type="text" placeholder="Apellido" required>
+                            <input type="text" placeholder="Nombre" id="name" required>
+                            <input type="text" placeholder="Apellido" id="lastname" required>
                         </div>
                     </li>
                     <li>
                         <div class="grid grid-2">
-                            <input type="email" placeholder="Email" required>
-                            <input type="tel" placeholder="Telefono" required>
+                            <input type="email" placeholder="Email" id="email" required>
+                            <input type="tel" placeholder="Telefono" id="tel" required>
                         </div>
                     </li>
                     <li>
