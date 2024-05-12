@@ -5,12 +5,22 @@
             "id" : 1,
             "title" : "El señor de los anillos: La comunidad del anillo",
             "author" : "JRR Tolkien",
-            "puntuation" : 9
+            "puntuation" : 9,
+            "pages" : 576
         },
         {
             "id" : 2,
-            "title" : "The Hobbit",
-            "author" : "JRR Tolkien"
+            "title" : "El nombre del viento",
+            "author" : "Patrick Rothfuss",
+            "puntuation" : 10,
+            "pages" : 880
+        },
+        {
+            "id" : 3,
+            "title" : "Mistborn: El imperio final",
+            "author" : "Brandon Sanderson",
+            "puntuation" : 7,
+            "pages" : 688
         }
     ]
 }

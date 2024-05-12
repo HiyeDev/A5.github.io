@@ -32,9 +32,17 @@ body {
     margin-right: 1.25rem;
     
 }
-a:link {
-    color: black;
+
+a {
+    font-weight: bold;
+    color: chocolate;
+    transition: all 0.3s;
     text-decoration: none;
+}
+
+a:hover {
+    color: blueviolet;
+    font-size: 18px;
 }
 
 #um-guille {
@@ -46,6 +54,7 @@ a:link {
     animation: typing 2s steps(21) , blink .5s infinite step-end alternate;
     animation-duration: infinite;
     overflow: hidden;
+    font-weight: bold;
 }
 
 @keyframes typing {
