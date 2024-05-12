@@ -13,7 +13,7 @@ for (let i = 0; i < link.length; i++) {
     if (!link) {
         return;
     }
-    fetch("/databases/json/books.json")
+    fetch("https://hiyedev.github.io/A5.github.io/databases/json/books.json")
     .then(response => response.json())
     .then(data => {
         const containerInfo = document.querySelector(".container-info");
